@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>MyTube</title>
+</head>
+<body>
+   <Header>
+      <h1>My Favorite Sports</h1>
+   </Header>
+      <nav>
+         <a href="index.html">Home</a>
+         <a href="/myTube/pages/Football.html">Football Collection</a>
+         <a href="/myTube/pages/MMA.html">MMA Collection</a>
+         <a href="/myTube/pages/Basketball.html">Basketball Collection</a>
+         <a href="form.html">Upload Video</a>
+      </nav>
+      <hr>
+         <section>
+            <h1>Add New Video</h1>
+
+            <form action="get">
+               <label for="title"><strong>Video Title</strong></label>
+               <br>
+               <input type="text" placeholder="Enter Here" id="title" name="title">
+               <br>
+               <label for="description"><strong>Description</strong></label>
+               <br>
+               <textarea rows="4" cols="25" name="comment">Text Content</textarea>
+               <br>
+               <label for="vidFile"><strong>Video</strong></label>
+               <br>
+               <input type="file" id="vidFile" name="vidFile">
+               <br>
+               <label for="cars">Selection</label>
+               <br>
+               <select name="selection" id="selection">
+                  <option value="sel-one">One</option>
+                  <option value="sel-two">Two</option>
+                  <option value="sel-three">Three</option>
+                  <option value="sel-four">Four</option>
+               </select>
+               <br>
+               <input type="radio" id="radio" name="radio">
+               <label for="radioSelection">one</label>
+               <input type="radio" id="radioTwo" name="radio">
+               <label for="radioSelection">two</label>
+            </form>
+            <button>Upload Video</button>
+            
+         </section>
+
+
+         <hr>
+         <footer>
+            <p>&copy: Copyright</p>
+         </footer>
+</body>
+</html>
