@@ -4,49 +4,90 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../styles.css">
    <title>myTube</title>
 </head>
 <body>
    <Header>
       <h1>My Favorite Sports</h1>
    </Header>
-      <nav>
-         <!-- Fixed the links  -->
-         <a href="../index.html">Home</a>
-         <a href="/myTube/pages/Football.html">Football Collection</a>
-         <a href="/myTube/pages/MMA.html">MMA Collection</a>
-         <a href="/myTube/pages/Basketball.html">Basketball Collection</a>
-         <a href="../form.html">Upload Video</a>
-      </nav>
+   <nav>
+      <div class="nav-container">
+         <div>
+            <a class="hover" href="../index.html">Home  |</a>
+            <a class="hover" href="/myTube/pages/Football.html">Football Collection |</a>
+            <a class="hover" href="/myTube/pages/MMA.html">MMA Collection |</a>
+            <a class="hover"href="/myTube/pages/Basketball.html">Basketball Collection</a>
+         </div>
+         <div>
+            <a class="hover-btn upload" href="../form.html" >Upload Video</a>
+         </div>
+      </div>
+   </nav>
       <hr>
       <section>
-         <h2>Basetball</h2>
+         <h2>Basletball</h2>
          
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/--P1TpUThfA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe> 
-         <figcaption><a href="../videos/basketball.html">More details here</a></figcaption>
-         <br>
-
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/RpDwdHzuydA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
-         <figcaption><a href="../videos/basketball2.html">More details here</a></figcaption>
-         <br>
-
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/qxx0CRkzrlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
-         <figcaption><a href="../videos/basketball3.html">More Details Here</a></figcaption>
-         <br>
-
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/--P1TpUThfA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe> 
-         <figcaption><a href="../videos/basketball4.html">More details here</a></figcaption>
-         <br>
-
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/RpDwdHzuydA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
-         <figcaption><a href="../videos/basketball5.html">More details here</a></figcaption>
-         <br>
-
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/qxx0CRkzrlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
-         <figcaption><a href="../videos/basketball6.html">More Details Here</a></figcaption>
-         <br>
-
-        
+         <div class="new-container">
+            <div class="row">
+               <div class="box">
+                  <iframe src="https://www.youtube.com/embed/--P1TpUThfA" 
+                     title="YouTube video player" 
+                     frameborder="0" 
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>  
+                     <figcaption class="nice">
+                        <a class="hover nice" href="../videos/basketball.html">More Details Here</a>
+                     </figcaption>
+               </div>
+               <div class="box">
+                  <iframe src="https://www.youtube.com/embed/RpDwdHzuydA" 
+                     title="YouTube video player" 
+                     frameborder="0" 
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+                     <figcaption class="nice">
+                        <a class="hover nice" href="../videos/basketball2.html">More Details Here</a>
+                     </figcaption>
+               </div>
+               <div class="box">
+                  <iframe src="https://www.youtube.com/embed/qxx0CRkzrlw" 
+                     title="YouTube video player" 
+                     frameborder="0" 
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+                     <figcaption class="nice">
+                        <a class="hover nice" href="../videos/basketball3.html">More Details Here</a>
+                     </figcaption>
+               </div>
+            </div>
+            <div class="row">
+               <div class="box">
+                  <iframe src="https://www.youtube.com/embed/--P1TpUThfA" 
+                     title="YouTube video player" 
+                     frameborder="0" 
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+                     <figcaption class="nice">
+                        <a class="hover nice" href="../videos/basketball4.html">More Details Here</a>
+                     </figcaption> 
+               </div>
+               <div class="box">
+                  <iframe src="https://www.youtube.com/embed/RpDwdHzuydA" 
+                     title="YouTube video player" 
+                     frameborder="0" 
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+                     <figcaption class="nice">
+                        <a class="hover nice" href="../videos/basketball5.html">More Details Here</a>
+                     </figcaption>
+               </div>
+               <div class="box">
+                  <iframe src="https://www.youtube.com/embed/qxx0CRkzrlw" 
+                     title="YouTube video player" 
+                     frameborder="0" 
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+                     <figcaption class="nice">
+                        <a class="hover nice" href="../videos/basketball6.html">More Details Here</a>
+                     </figcaption>
+               </div>
+            </div>
+         </div>
          
       </section>
       <hr>
@@ -56,3 +97,9 @@
 
 </body>
 </html>
+
+   
+
+         
+
+ 

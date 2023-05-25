@@ -1,11 +1,16 @@
 *{
    margin: 0;
 }
+h1{
+   font-family: fantasy;
+   text-shadow: 1px 1px 1px gray;
+}
 body{
    background-color: #0c1821;
    color: white;;
    margin: 0 auto;
    width: 90%;
+   font-family: sans-serif;
 }
 header{
    padding: 15px;
@@ -27,12 +32,17 @@ nav a{
    display: flex;
    justify-content: space-between;
 }
-#upload{
+.upload{
    background-color: red;
    padding: 5px;
    border-radius: 5px;
    box-shadow: 2px 2px 2px  #fa003f;
    color: black;
+   display: block;
+  transition: 0.7s;
+}
+.hover-btn:hover{
+      transform: scale(1.2);
 }
 img{
    width: 90%;
@@ -57,7 +67,7 @@ section > .video-container {
 }
 .read-btn{
    position: relative;
-   top:130px;
+   top:100px;
    left: 140px;
    background-color: #0c1821;
    padding: 10px;
@@ -67,4 +77,75 @@ section > .video-container {
 footer{
    background-color: #5c677d;
    height: 20vh;
+}
+.new-container{
+   display: flex;
+   flex-wrap: wrap;
+ }
+ 
+ .row{
+   display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 20px;
+   margin: auto auto;
+ }
+ 
+ .box{
+   flex-basis: 31%;
+   padding: 10px;
+   margin-top: 50px;
+ }
+ 
+ iframe {
+   width: 100%;
+   height: 100%;
+ }
+
+ .nice{
+   background-color: #0c1821;
+   padding: 10px;
+   color: white;
+   border-radius: 4px;
+   text-align: center;
+ }
+ .hover{
+   text-align: center;
+   transform: color 0.3s;
+   text-decoration: none;
+ }
+ .hover:hover{
+   color: #fa003f;
+ }
+ .one-page, .fiftyPercent{
+   width: 50%;
+   height: 50%;
+ }
+ form{
+   background-color: RGBA(27, 38, 59, 0.5);
+   text-align: left;
+   color: white;
+   margin: auto auto;
+   width: 30%;
+   padding: 30px;
+   height: 50vh;
+   line-height: 30px;
+}
+
+input{ 
+   padding: 5px;
+}
+.wide{
+   width: 90%;
+}
+#workout{
+   width: 90%;
+}
+
+.submit{
+   width: 90%;
+   padding: 3px 5px;
+   background: none;
+   background-color: RGBA(27, 38, 59,1);
+   color: white;
+   border: 2px solid gray;
 }

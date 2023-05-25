@@ -4,50 +4,62 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
    <title>MyTube</title>
 </head>
 <body>
-      <nav>
-         <a href="index.html">Home</a>
-         <a href="/myTube/pages/Football.html">Football Collection</a>
-         <a href="/myTube/pages/MMA.html">MMA Collection</a>
-         <a href="/myTube/pages/Basketball.html">Basketball Collection</a>
-         <a href="form.html">Upload Video</a>
-      </nav>
-      <Header>
-         <h1>My Favorite Sports</h1>
-      </Header>
+   <Header>
+      <h1>My Favorite Sports</h1>
+   </Header>
+   <nav>
+      <div class="nav-container">
+         <div>
+            <a class="hover" href="../index.html">Home  |</a>
+            <a class="hover" href="/myTube/pages/Football.html">Football Collection |</a>
+            <a class="hover" href="/myTube/pages/MMA.html">MMA Collection |</a>
+            <a class="hover"href="/myTube/pages/Basketball.html">Basketball Collection</a>
+         </div>
+         <div>
+            <a class="hover-btn upload" href="../form.html" >Upload Video</a>
+         </div>
+      </div>
+   </nav>
          <section>
             <h1>Add New Video</h1>
 
-            <form action="get">
-               <label for="title"><strong>Video Title</strong></label>
+            <form>
+               <label>Add New Video</label>
                <br>
-               <input type="text" placeholder="Enter Here" id="title" name="title">
+               <input type="text" name="name" id="name" placeholder="Enter Here" class="wide">
                <br>
-               <label for="description"><strong>Description</strong></label>
+               <label for="commets">Any comments or suggestions?</label>
                <br>
-               <textarea rows="4" cols="25" name="comment">Text Content</textarea>
+               <textarea id="w3review" name="w3review" rows="4" cols="50">
+               Enter Your Comment here 
+               </textarea>
                <br>
                <label for="vidFile"><strong>Video</strong></label>
                <br>
                <input type="file" id="vidFile" name="vidFile">
                <br>
-               <label for="cars">Selection</label>
+               <label for="Selection">Selection</label>
                <br>
-               <select name="selection" id="selection">
-                  <option value="sel-one">One</option>
-                  <option value="sel-two">Two</option>
-                  <option value="sel-three">Three</option>
-                  <option value="sel-four">Four</option>
+               <select name="workout" id="workout" placeholder="Select an option">
+                  <option value="select">Select an option</option>
+                  <option value="chest">One</option>
+                  <option value="legs">Two</option>
+                  <option value="back">Three</option>
+                  <option value="arms">Four</option>
                </select>
                <br>
-               <input type="radio" id="radio" name="radio">
-               <label for="radioSelection">one</label>
-               <input type="radio" id="radioTwo" name="radio">
-               <label for="radioSelection">two</label>
+               <label for="favorite">What workout day can you improve on?(Select all that apply)</label>
+               <br>
+               <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+               <label for="vehicle1">Two</label><br>
+               <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+               <label for="vehicle2">One</label><br>
+               <button class="sumbit">Submit</button>
             </form>
-            <button>Upload Video</button>
             
          </section>
 
